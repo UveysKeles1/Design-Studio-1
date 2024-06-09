@@ -83,10 +83,10 @@ body {
 nav {
   position: fixed;
   width: 100%;
-  max-width: var(--max-width);
+  /*max-width: var(--max-width); */
   margin-inline: auto;
   z-index: 9;
-  background-color: rgb(215, 215, 195);
+  background-color: var(--primary-color);
 }
 
 .nav__header {
@@ -136,7 +136,7 @@ nav {
 .nav__links a {
   font-weight: 600;
   white-space: nowrap;
-  color: var(--primary-color);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -459,7 +459,7 @@ nav {
   }
 
   .nav__links a {
-    color: var(--primary-color);
+    color: var(--white);
   }
 
   .nav__links a:hover {
